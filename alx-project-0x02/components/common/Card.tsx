@@ -1,10 +1,10 @@
-import { CardProps } from "@/interfaces";
+import { type CardProps } from "@/interfaces";
 
 export default function Card({ title, content }: CardProps) {
   return (
-    <div className="border rounded-lg p-4 shadow-md">
-      <h2 className="font-bold text-xl">{title}</h2>
-      <p>{content}</p>
+    <div className="border rounded-lg shadow-md p-6 bg-white hover:shadow-xl transition">
+      <h2 className="text-xl font-bold mb-2">{title}</h2>
+      <p className="text-gray-700">{content}</p>
     </div>
   );
 }
