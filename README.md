@@ -1,4 +1,4 @@
-
+##Next.js Project Setup and Basics.
 This repository contains my project for learning and practicing **Next.js**, **TypeScript**, and **Tailwind CSS**.  
 It demonstrates how to set up a modern web application, create reusable components, implement routing, integrate APIs, and organize a project using best practices.
 
