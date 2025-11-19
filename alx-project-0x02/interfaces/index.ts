@@ -15,3 +15,13 @@ export interface PostProps {
   title: string;
   content: string;
 }
+
+export interface UserProps {
+  id: number;
+  name: string;
+  email: string;
+  address: {
+    city: string;
+    street: string;
+  };
+}
