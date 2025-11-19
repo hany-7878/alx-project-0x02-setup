@@ -15,7 +15,7 @@ export default function Header() {
         <span className="cursor-pointer">About</span>
       </Link>
       <Link href="/post">
-        <span className="cursor-pointer">About</span>
+        <span className="cursor-pointer">Post</span>
       </Link>
     </header>
   );
