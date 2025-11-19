@@ -2,6 +2,7 @@ import { useState } from "react";
 import PostModal from "@/components/common/PostModal";
 import Card from "@/components/common/Card";
 import { CardProps } from "@/interfaces";
+import Header from "@/components/layout/Header";
 
 export default function HomePage() {
   const [posts, setPosts] = useState<CardProps[]>([]);
@@ -13,6 +14,7 @@ export default function HomePage() {
 
   return (
     <div className="p-6">
+      <Header/>
       <h1 className="text-3xl font-bold">Home Page</h1>
       <button
         onClick={() => setIsModalOpen(true)}
